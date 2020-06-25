@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameterization Test Suite]">
+  <test thread-count="5" name="TestCase3(failed)">
+    <parameter name="testDataFileName" value="TGRTestData"/>
+    <parameter name="testCaseId" value="TC002"/>
+    <classes>
+      <class name="com.tgr.RegressionTestScripts.AgentTGRTestCase">
+        <methods>
+          <include name="TC1"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.tgr.RegressionTestScripts.AgentTGRTestCase -->
+    </classes>
+  </test> <!-- TestCase3(failed) -->
+</suite> <!-- Failed suite [Parameterization Test Suite] -->

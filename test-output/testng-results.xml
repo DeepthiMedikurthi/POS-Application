@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parameterization Test Suite" duration-ms="2420945" started-at="2020-06-23T13:27:43 IST" finished-at="2020-06-23T14:08:04 IST">
+    <groups>
+    </groups>
+    <test name="TestCase1" duration-ms="331094" started-at="2020-06-23T13:27:43 IST" finished-at="2020-06-23T13:33:15 IST">
+      <class name="com.tgr.RegressionTestScripts.TGRTestCaseGSign">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.tgr.RegressionTestScripts.TGRTestCaseGSign@3ecd23d9]" name="setup" is-config="true" duration-ms="786" started-at="2020-06-23T13:27:44 IST" finished-at="2020-06-23T13:27:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TGRTestData]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:com.tgr.RegressionTestScripts.TGRTestCaseGSign@3ecd23d9]" name="TC1" duration-ms="329939" started-at="2020-06-23T13:27:44 IST" finished-at="2020-06-23T13:33:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="close(org.testng.ITestContext)[pri:0, instance:com.tgr.RegressionTestScripts.TGRTestCaseGSign@3ecd23d9]" name="close" is-config="true" duration-ms="324" started-at="2020-06-23T13:33:14 IST" finished-at="2020-06-23T13:33:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2524c74d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.tgr.RegressionTestScripts.TGRTestCaseGSign -->
+    </test> <!-- TestCase1 -->
+    <test name="TestCase2" duration-ms="352664" started-at="2020-06-23T13:33:15 IST" finished-at="2020-06-23T13:39:07 IST">
+      <class name="com.tgr.RegressionTestScripts.TGRTestCaseESign">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.tgr.RegressionTestScripts.TGRTestCaseESign@6ec8211c]" name="setup" is-config="true" duration-ms="168" started-at="2020-06-23T13:33:15 IST" finished-at="2020-06-23T13:33:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC012]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TGRTestData]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:com.tgr.RegressionTestScripts.TGRTestCaseESign@6ec8211c]" name="TC1" duration-ms="352422" started-at="2020-06-23T13:33:15 IST" finished-at="2020-06-23T13:39:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="close(org.testng.ITestContext)[pri:0, instance:com.tgr.RegressionTestScripts.TGRTestCaseESign@6ec8211c]" name="close" is-config="true" duration-ms="52" started-at="2020-06-23T13:39:07 IST" finished-at="2020-06-23T13:39:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@65f9b705]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.tgr.RegressionTestScripts.TGRTestCaseESign -->
+    </test> <!-- TestCase2 -->
+    <test name="TestCase3" duration-ms="314877" started-at="2020-06-23T13:39:07 IST" finished-at="2020-06-23T13:44:22 IST">
+      <class name="com.tgr.RegressionTestScripts.TGRTestCaseGSign">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.tgr.RegressionTestScripts.TGRTestCaseGSign@10dba097]" name="setup" is-config="true" duration-ms="145" started-at="2020-06-23T13:39:07 IST" finished-at="2020-06-23T13:39:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TGRTestData]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:com.tgr.RegressionTestScripts.TGRTestCaseGSign@10dba097]" name="TC1" duration-ms="314670" started-at="2020-06-23T13:39:08 IST" finished-at="2020-06-23T13:44:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="close(org.testng.ITestContext)[pri:0, instance:com.tgr.RegressionTestScripts.TGRTestCaseGSign@10dba097]" name="close" is-config="true" duration-ms="53" started-at="2020-06-23T13:44:22 IST" finished-at="2020-06-23T13:44:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24f053cc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.tgr.RegressionTestScripts.TGRTestCaseGSign -->
+    </test> <!-- TestCase3 -->
+    <test name="TestCase4" duration-ms="225463" started-at="2020-06-23T13:44:22 IST" finished-at="2020-06-23T13:48:08 IST">
+      <class name="com.tgr.RegressionTestScripts.AgentTGRTestCase">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.tgr.RegressionTestScripts.AgentTGRTestCase@6eceb130]" name="setup" is-config="true" duration-ms="110" started-at="2020-06-23T13:44:22 IST" finished-at="2020-06-23T13:44:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC009]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TGRTestData]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:com.tgr.RegressionTestScripts.AgentTGRTestCase@6eceb130]" name="TC1" duration-ms="225296" started-at="2020-06-23T13:44:22 IST" finished-at="2020-06-23T13:48:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="close(org.testng.ITestContext)[pri:0, instance:com.tgr.RegressionTestScripts.AgentTGRTestCase@6eceb130]" name="close" is-config="true" duration-ms="52" started-at="2020-06-23T13:48:08 IST" finished-at="2020-06-23T13:48:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b1cb833]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.tgr.RegressionTestScripts.AgentTGRTestCase -->
+    </test> <!-- TestCase4 -->
+    <test name="TestCase5" duration-ms="349130" started-at="2020-06-23T13:48:08 IST" finished-at="2020-06-23T13:53:57 IST">
+      <class name="com.tgr.RegressionTestScripts.AgentTGRTestCase">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.tgr.RegressionTestScripts.AgentTGRTestCase@149494d8]" name="setup" is-config="true" duration-ms="120" started-at="2020-06-23T13:48:08 IST" finished-at="2020-06-23T13:48:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TGRTestData]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:com.tgr.RegressionTestScripts.AgentTGRTestCase@149494d8]" name="TC1" duration-ms="348966" started-at="2020-06-23T13:48:08 IST" finished-at="2020-06-23T13:53:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="close(org.testng.ITestContext)[pri:0, instance:com.tgr.RegressionTestScripts.AgentTGRTestCase@149494d8]" name="close" is-config="true" duration-ms="40" started-at="2020-06-23T13:53:57 IST" finished-at="2020-06-23T13:53:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28011cb2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.tgr.RegressionTestScripts.AgentTGRTestCase -->
+    </test> <!-- TestCase5 -->
+    <test name="TestCase6" duration-ms="328428" started-at="2020-06-23T13:53:57 IST" finished-at="2020-06-23T13:59:25 IST">
+      <class name="com.tgr.RegressionTestScripts.AgentTGRTestCase">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.tgr.RegressionTestScripts.AgentTGRTestCase@4cf4d528]" name="setup" is-config="true" duration-ms="91" started-at="2020-06-23T13:53:57 IST" finished-at="2020-06-23T13:53:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC011]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TGRTestData]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:com.tgr.RegressionTestScripts.AgentTGRTestCase@4cf4d528]" name="TC1" duration-ms="328283" started-at="2020-06-23T13:53:57 IST" finished-at="2020-06-23T13:59:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="close(org.testng.ITestContext)[pri:0, instance:com.tgr.RegressionTestScripts.AgentTGRTestCase@4cf4d528]" name="close" is-config="true" duration-ms="44" started-at="2020-06-23T13:59:25 IST" finished-at="2020-06-23T13:59:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@e8d728]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.tgr.RegressionTestScripts.AgentTGRTestCase -->
+    </test> <!-- TestCase6 -->
+    <test name="TestCase7" duration-ms="308078" started-at="2020-06-23T13:59:25 IST" finished-at="2020-06-23T14:04:34 IST">
+      <class name="com.tgr.RegressionTestScripts.AgentTGRTestCase">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.tgr.RegressionTestScripts.AgentTGRTestCase@df27fae]" name="setup" is-config="true" duration-ms="121" started-at="2020-06-23T13:59:25 IST" finished-at="2020-06-23T13:59:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TGQTestData]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:com.tgr.RegressionTestScripts.AgentTGRTestCase@df27fae]" name="TC1" duration-ms="307910" started-at="2020-06-23T13:59:26 IST" finished-at="2020-06-23T14:04:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="close(org.testng.ITestContext)[pri:0, instance:com.tgr.RegressionTestScripts.AgentTGRTestCase@df27fae]" name="close" is-config="true" duration-ms="44" started-at="2020-06-23T14:04:34 IST" finished-at="2020-06-23T14:04:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@26a08aca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.tgr.RegressionTestScripts.AgentTGRTestCase -->
+    </test> <!-- TestCase7 -->
+    <test name="TestCase8" duration-ms="210882" started-at="2020-06-23T14:04:34 IST" finished-at="2020-06-23T14:08:04 IST">
+      <class name="com.tgr.RegressionTestScripts.MyPolicyTestCaseGSign">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.tgr.RegressionTestScripts.MyPolicyTestCaseGSign@5579bb86]" name="setup" is-config="true" duration-ms="97" started-at="2020-06-23T14:04:34 IST" finished-at="2020-06-23T14:04:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MyPolictTestData]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:com.tgr.RegressionTestScripts.MyPolicyTestCaseGSign@5579bb86]" name="TC1" duration-ms="210747" started-at="2020-06-23T14:04:34 IST" finished-at="2020-06-23T14:08:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="close(org.testng.ITestContext)[pri:0, instance:com.tgr.RegressionTestScripts.MyPolicyTestCaseGSign@5579bb86]" name="close" is-config="true" duration-ms="36" started-at="2020-06-23T14:08:04 IST" finished-at="2020-06-23T14:08:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6833730d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.tgr.RegressionTestScripts.MyPolicyTestCaseGSign -->
+    </test> <!-- TestCase8 -->
+  </suite> <!-- Parameterization Test Suite -->
+</testng-results>

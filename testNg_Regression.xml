@@ -1,0 +1,172 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterization Test Suite">
+	<test name="TestCase1">
+		<parameter name="testCaseId" value="TC001" />
+		<parameter name="testDataFileName" value="TGRTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGRTestCaseGSign" />
+		</classes>
+	</test>
+	
+	<test name="TestCase2">
+		<parameter name="testCaseId" value="TC012" />
+		<parameter name="testDataFileName" value="TGRTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGRTestCaseESign" />
+		</classes>
+	</test>
+	 <test name="TestCase3">
+		<parameter name="testCaseId" value="TC003" />
+		<parameter name="testDataFileName" value="TGRTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGRTestCaseGSign" />
+		</classes>
+	</test>
+	<test name="TestCase4">
+		<parameter name="testCaseId" value="TC009" />
+		<parameter name="testDataFileName" value="TGRTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.AgentTGRTestCase" />
+		</classes>
+	</test>
+	<test name="TestCase5">
+		<parameter name="testCaseId" value="TC010" />
+		<parameter name="testDataFileName" value="TGRTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.AgentTGRTestCase" />
+		</classes>
+	</test>
+	<test name="TestCase6">
+		<parameter name="testCaseId" value="TC011" />
+		<parameter name="testDataFileName" value="TGRTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.AgentTGRTestCase" />
+		</classes>
+	</test>
+	
+	 <test name="TestCase7">
+		<parameter name="testCaseId" value="TC002" />
+		<parameter name="testDataFileName" value="TGQTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.AgentTGRTestCase" />
+		</classes>
+	</test>
+	<test name="TestCase8">
+		<parameter name="testCaseId" value="TC001" />
+		<parameter name="testDataFileName" value="MyPolictTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.MyPolicyTestCaseGSign" />
+		</classes>
+	</test>
+ <!--<test name="TestCase1">
+		<parameter name="testCaseId" value="TC013" />
+		<parameter name="testDataFileName" value="TGQTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGQTestCaseVSign" />
+		</classes>
+	</test> -->
+	<!--  <test name="TestCase2">
+		<parameter name="testCaseId" value="TC003" />
+		<parameter name="testDataFileName" value="TGRTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.AgentTGRTestCase" />
+		</classes>
+	</test> -->
+	 <!--<test name="TestCase3">
+		<parameter name="testCaseId" value="TC005" />
+		<parameter name="testDataFileName" value="TGQTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGQTestCaseVSign" />
+		</classes>
+	</test>
+	<test name="TestCase4">
+		<parameter name="testCaseId" value="TC018" />
+		<parameter name="testDataFileName" value="TGQTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGQTestCaseESign" />
+		</classes>
+	</test>
+	<test name="TestCase5">
+		<parameter name="testCaseId" value="TC008" />
+		<parameter name="testDataFileName" value="TGQTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGQTestCaseVSign" />
+		</classes>
+	</test>
+	<test name="TestCase6">
+		<parameter name="testCaseId" value="TC002" />
+		<parameter name="testDataFileName" value="TGQTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGQTestCaseVSign" />
+		</classes>
+	</test>
+	<test name="TestCase8">
+		<parameter name="testCaseId" value="TC003" />
+		<parameter name="testDataFileName" value="TGQTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGQTestCaseESign" />
+		</classes>
+	</test>
+
+	<test name="TestCase9">
+		<parameter name="testCaseId" value="TC009" />
+		<parameter name="testDataFileName" value="TGQTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGQTestCaseVSign" />
+		</classes>
+	</test> 
+	<test name="TestCase10">
+		<parameter name="testCaseId" value="TC003" />
+		<parameter name="testDataFileName" value="TGQTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGQTestCaseESign" />
+		</classes>
+	</test>
+	<test name="TestCase11">
+		<parameter name="testCaseId" value="TC009" />
+		<parameter name="testDataFileName" value="TGQTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGQTestCaseVSign" />
+		</classes>
+	</test>
+
+ <test name="TestCase10">
+		<parameter name="testCaseId" value="TC003" />
+		<parameter name="testDataFileName" value="TGRTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGRTestCase" />
+		</classes>
+	</test>  
+	
+
+	<test name="TestCase11">
+		<parameter name="testCaseId" value="TC004" />
+		<parameter name="testDataFileName" value="TGRTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGRTestCase" />
+		</classes>
+	</test>
+
+<test name="TestCase12">
+		<parameter name="testCaseId" value="TC001" />
+		<parameter name="testDataFileName" value="TGRTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGRTestCase" />
+		</classes>
+	</test>
+	<test name="TestCase13">
+		<parameter name="testCaseId" value="TC002" />
+		<parameter name="testDataFileName" value="TGRTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGRTestCase" />
+		</classes>
+	</test> 
+	<test name="TestCase14">
+		<parameter name="testCaseId" value="TC001" />
+		<parameter name="testDataFileName" value="TGRTestData" />
+		<classes>
+			<class name="com.tgr.RegressionTestScripts.TGRTestCase" />
+		</classes>
+	</test> -->
+	
+</suite>
